@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# Poetry
+poetry.lock
+
+# MLflow
+mlruns/
+
+# Data (tracked by DVC, not git)
+data/raw/
+data/processed/
+data/splits/
+data/reference/
+data/predictions/
+data/monitoring/
+data/remote/
+!data/.gitkeep
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Docker
+*.pid
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DVC
+.dvc/tmp/
+.dvc/cache/

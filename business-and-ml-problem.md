@@ -1223,8 +1223,11 @@ churnops/
 │   ├── monitoring/           # Drift reports, logs
 │   └── remote/               # Simulated DVC remote
 ├── mlruns/                   # MLflow artifacts (gitignored)
-├── notebooks/                # EDA (exploratory,not production)
-│   └── eda.ipynb
+├── notebooks/
+│   ├── 01_eda.ipynb            # Initial data exploration
+│   ├── 02_baseline_model.ipynb # Prototyping before code
+│   ├── 03_model_comparison.ipynb  # Comparing models
+│   └── 04_shap_analysis.ipynb  # Explainability deep dive
 ├── pipeline/
 │   ├── ingest.py
 │   ├── validate.py

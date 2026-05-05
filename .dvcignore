@@ -1,0 +1,42 @@
+# Python Artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Logs
+logs/
+*.log
+
+# MLflow artifacts (tracked separately)
+mlruns/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# CI
+.github/
+
+# Tests
+tests/
+
+# Notebooks
+notebooks/
+.ipynb_checkpoints/
+
+# Configs (tracked by git, not DVC)
+configs/
